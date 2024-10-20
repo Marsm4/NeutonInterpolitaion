@@ -14,6 +14,7 @@ class Program
 
         double result = NewtonInterpolation(x, y, valueToInterpolate);
         Console.WriteLine($"Интерполированное значение в x = {valueToInterpolate}: y = {result}");
+        Console.ReadLine();
     }
 
     static double NewtonInterpolation(double[] x, double[] y, double value)
